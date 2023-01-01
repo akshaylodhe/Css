@@ -1,12 +1,44 @@
-p {
-    color: blue;
+/* 
+ p {
+    color: brown;
 font-size: 30px;
 margin-left: 30px;
 border: 1px solid red;
+} */
+ 
+/* syntax */
+/* (PEROID OPRETOR) Class-name 
+ properties : value  */
+
+
+.maincontainer{
+color: aqua;
+background-color: cornsilk;
+}
+ 
+.main1{
+    border: 2px dotted;
+    color: blueviolet;
+    padding-left: 20px;
+}
+
+.main2{
+
+    background-color: chocolate;
+    border: 2px solid black;
+    height: 10px;
+    width: 200px;
+}
+
+.main3{
+    background-color: yellow;
+    border: 2px solid black;
 }
 
 
-
-
+.main4{
+    background-color: rgb(24, 255, 59);
+    border: 2px solid rgb(15, 207, 41);
+}
 
 
