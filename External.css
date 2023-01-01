@@ -41,4 +41,37 @@ background-color: cornsilk;
     border: 2px solid rgb(15, 207, 41);
 }
 
+.container{
+
+font-size: 2rem;
+width: 250px;
+margin-left: 40px;
+border: 1px solid black;
+overflow: hidden;
+text-overflow: clip;
+}
+
+div.container:hover{
+
+    overflow: visible;
+}
+.container2{
+    font-size: 2rem;
+    width: 100;
+    margin-left: 40px;
+    border: 1px solid black;
+overflow-y: auto;
+overflow-x: auto;
+height: 50;
+    overflow-y: scroll;
+}
+.textshadow{
+
+
+    text-shadow: 5px 0px 4px red;
+    font-size: 41px;
+}
+
+
+
 
