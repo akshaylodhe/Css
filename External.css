@@ -7,8 +7,8 @@ border: 1px solid red;
 } */
 
 /* syntax */
-/* (PEROID OPRETOR) Class-name 
- properties : value  */
+/* (PEROID OPRETOR) Class-name {
+            properties} */
 
 
 .maincontainer {
@@ -72,7 +72,6 @@ div.container:hover {
     text-shadow: -6px -7px 4px red;
     font: size 41px !important;
     /* background-color: blueviolet; */
-
 }
 
 .container4 {
@@ -82,6 +81,7 @@ div.container:hover {
 
 .imageopacity {
     opacity: 1;
+    position: absolute;
 }
 
 div.imageopacity img :hover {
@@ -93,6 +93,11 @@ div.imageopacity img :hover {
 .parent{
 background-image:url(Happynewyear.webp);
 background-repeat: no-repeat;
+height: 1000px;
+width: 1000px;
+z-index: -1 !important; 
+position: relative;
+
 }
 
   
