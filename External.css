@@ -5,24 +5,24 @@ font-size: 30px;
 margin-left: 30px;
 border: 1px solid red;
 } */
- 
+
 /* syntax */
 /* (PEROID OPRETOR) Class-name 
  properties : value  */
 
 
-.maincontainer{
-color: aqua;
-background-color: cornsilk;
+.maincontainer {
+    color: aqua;
+    background-color: cornsilk;
 }
- 
-.main1{
+
+.main1 {
     border: 2px dotted;
     color: blueviolet;
     padding-left: 20px;
 }
 
-.main2{
+.main2 {
 
     background-color: chocolate;
     border: 2px solid black;
@@ -30,48 +30,69 @@ background-color: cornsilk;
     width: 200px;
 }
 
-.main3{
+.main3 {
     background-color: yellow;
     border: 2px solid black;
 }
 
-
-.main4{
-    background-color: rgb(24, 255, 59);
-    border: 2px solid rgb(15, 207, 41);
+.main4 {
+    background-color: rgb(79, 19, 96);
+    border: 2px;
+    color: chartreuse;
 }
 
-.container{
+.container {
 
-font-size: 2rem;
-width: 250px;
-margin-left: 40px;
-border: 1px solid black;
-overflow: hidden;
-text-overflow: clip;
-}
-
-div.container:hover{
-
-    overflow: visible;
-}
-.container2{
     font-size: 2rem;
-    width: 100;
+    width: 250px;
     margin-left: 40px;
     border: 1px solid black;
-overflow-y: auto;
-overflow-x: auto;
-height: 50;
-    overflow-y: scroll;
+    overflow: hidden;
+    text-overflow: clip;
 }
-.textshadow{
 
-
-    text-shadow: 5px 0px 4px red;
-    font-size: 41px;
+div.container:hover {
+    overflow: visible;
 }
 
 
+.container2 {
+    font-size: 2rem;
+    width: 100px;
+    margin-left: 40px;
+    border: 1px solid black;
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 100px;
 
 
+}
+
+.textshadow {
+    text-shadow: -6px -7px 4px red;
+    font: size 41px !important;
+    /* background-color: blueviolet; */
+
+}
+
+.container4 {
+    background-color: cornflowerblue;
+    font-size: 30px;
+}
+
+.imageopacity {
+    opacity: 1;
+}
+
+div.imageopacity img :hover {
+
+    opacity: 0.5;
+}
+
+
+.parent{
+background-image:url(Happynewyear.webp);
+background-repeat: no-repeat;
+}
+
+  
