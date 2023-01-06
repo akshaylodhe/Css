@@ -1,0 +1,62 @@
+/* .Statics-css {
+border: 1px dotted blue;
+position: static;
+} */
+
+.rel {
+    border: solid 1px black;
+    position: relative;
+    left: 60px;
+}
+
+
+.fix {
+    position: fixed;
+    left: 200px;
+    bottom: 0px;
+    border: 1px solid rgb(5, 5, 0);
+    height: 20px;
+    width: 300px;
+}
+
+.Parentbranch {
+    height: 1000px;
+    width: 900px;
+}
+
+.stick{
+position: sticky;
+top: 0px;
+background-color: rgb(190, 237, 18);
+border: 1px solid rgb(11, 11, 0);
+}
+
+.main{
+position: relative;
+top: 0px;
+left: 40px;
+height: 500px;
+width: 500px;
+background-color:yellow
+}
+
+.innermain{
+
+    position: relative;
+    top: 0px;
+    left: 0;
+    right: 400;
+    height: 400px;
+    width: 400px;
+    background-color:rgb(16, 108, 141);
+    border: 1px solid yellow;
+    
+}
+
+
+
+
+
+
+
+
