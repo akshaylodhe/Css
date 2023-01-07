@@ -1,0 +1,24 @@
+.dropdown {
+
+    position: relative;
+    background-color: rgb(193, 240, 22);
+    /* overflow: hidden; */
+    font-size: 22px;
+}
+
+.dropdown a {
+    text-decoration: none;
+}
+
+.dropdown-content a {
+
+    text-decoration: none;
+}
+
+.dropbtn {
+    background-color: blue;
+    padding: 1px;
+    border: none;
+    color: white;
+    cursor: wait;
+}
