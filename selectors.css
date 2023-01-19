@@ -1,0 +1,21 @@
+p{
+    color: blue;
+}
+#h1-container{
+    color: rgb(255, 38, 0);
+}
+
+.centre{
+    color: brown;
+}
+
+
+* {
+    text-align: center;
+    color: yellowgreen;
+}
+
+h4,h5{
+text-align: center;
+color: blue;
+}

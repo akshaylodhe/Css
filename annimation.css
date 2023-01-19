@@ -1,0 +1,52 @@
+.annimation-content{
+width: 200px;
+height: 200px;
+background-color: blue;
+padding: 15px;
+animation-name: myAnnimation;
+animation-duration: 4s;
+animation-iteration-count:infinite;
+animation-delay: 3s;
+}
+
+    
+  @keyframes myAnnimation {       
+ /*form {background-color:blue;
+font-size: 40px;}
+
+
+to {
+    background-color:yellowgreen;
+font-size: 20px;}
+}
+ */
+  
+ 0%{
+    background-color: orange;
+    left: 0px;
+ }
+ 25%{
+background-color: antiquewhite;
+ }
+50%{
+    background-color: blue;
+}
+100%{
+
+    background-color: yellow;
+}
+
+  }
+.annimation-1{
+width: 200px;
+height: 200px;
+background-color: pink;
+transition: width 1s, height 1s, transform 1s;
+}
+
+.annimation-1:hover{
+width: 400px;
+height: 400px;
+background-color: yellow;
+transform:rotate(360deg);
+}
