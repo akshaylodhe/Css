@@ -1,24 +1,130 @@
 .dropdown {
-
-    position: relative;
-    background-color: rgb(193, 240, 22);
-    /* overflow: hidden; */
-    font-size: 22px;
+    overflow: hidden;
+    background-color: skyblue;
+    z-index: 1;
+ /* position: sticky; */
 }
 
 .dropdown a {
     text-decoration: none;
+    float: left;
+    padding: 13px 16px;
+    font-size: 20px;
+
+}
+
+.dropdown-container {
+    overflow: hidden;
+    float: left;
+}
+
+.dropdown-content {
+    position: absolute;
+    min-width: 160px;
+    background-color: aquamarine;
+    /* display: block; */
+    display: none;
 }
 
 .dropdown-content a {
-
-    text-decoration: none;
+    display: block;
+    padding: 13px 16px;
+    float: none;
 }
 
 .dropbtn {
-    background-color: blue;
-    padding: 1px;
+    background-color: green;
+    padding: 16px 13px;
     border: none;
     color: white;
-    cursor: wait;
+    cursor: pointer;
+    font-size: 18px;
 }
+
+.dropdown-container:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn:hover {
+    background-color: blueviolet;
+}
+
+.dropdown-content a:hover {
+    background-color: orange;
+}
+
+.parent-container{
+/* height: 100%; */
+background-color: bisque;
+display: block;
+
+} 
+
+.link-3-container{
+    overflow: hidden;
+/* float: left; */
+
+}
+
+.dropdown-link-3-content{
+    position: absolute;
+    min-width: 160px;
+    background-color: aquamarine;
+    /* display: block; */
+    display:none;
+    left: 140px;
+}
+
+.link-3-container:hover:hover .dropdown-link-3-content{
+display:block;
+
+}
+
+.sidebar{
+
+position: static;
+width: 120px; 
+background-color: rgb(206, 228, 232);
+height: 90%;
+top: 59px;
+overflow-y: scroll;
+
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    height: 40px;
+    background-color: yellowgreen;
+    width: 99%;
+}
+
+
+.middle-container{
+position: absolute;
+left: 135px;
+padding: 6px;
+z-index: -1;
+top: 75px;
+overflow-y: scroll;
+height: 90%;
+}
+
+.mid-container-box{
+    position: absolute;
+background-color: blue;
+height: 200px;
+width: 200px;
+display: block;
+left: 260px;
+text-overflow: ellipsis;
+overflow: hidden;
+top: 150px;
+
+}
+
+
+
+
+
+
