@@ -1,0 +1,41 @@
+.word-properties{
+width: 200px;
+border: 2px solid black;
+ word-break: break-all;///it will break at any-character */
+}
+
+
+.word{
+width: 200px;
+border: 2px solid blueviolet;
+word-break: break-word;
+
+
+}
+.word-1{
+    width: 200px;
+    border: 2px solid blueviolet;
+    word-wrap: break-word;///it will break at -hypen word
+    
+    }
+    .word-2{
+        width: 200px;
+        border: 2px solid blueviolet;
+        word-wrap: break-word;///it will break at long word
+    }
+          
+
+
+.multi-colum{
+column-count: 4;
+column-gap: 30px;
+column-rule-style: solid;
+column-rule: 4px double skyblue;
+}
+
+
+
+
+
+
+
