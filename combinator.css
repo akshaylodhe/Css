@@ -1,0 +1,20 @@
+div p{
+background-color: bisque;
+
+}
+
+
+
+div > h1 {
+    color: blueviolet;
+}
+
+div + p{
+
+    background-color: yellow;
+}
+
+div ~ p {
+
+    background-color: skyblue;
+}
