@@ -1,0 +1,42 @@
+.h2-container{
+display:none;
+color: chocolate;
+}
+
+
+
+
+input:focus{
+background-color: chartreuse;
+}
+
+
+
+
+
+input[type=number]:focus{
+
+background-color: rgb(14, 70, 120);
+}
+
+a:link{
+    color: rgba(72, 4, 217, 0.985);
+}
+
+
+a:visited{
+color: rgb(246, 226, 11);
+}
+
+
+input:checked{
+width: 30%;
+height: 10%;
+border: 1px solid red;
+}
+
+input[type=number]:disabled{
+
+    background-color: green;
+}
+
