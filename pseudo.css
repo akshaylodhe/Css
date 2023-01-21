@@ -1,42 +1,88 @@
-.h2-container{
-display:none;
-color: chocolate;
+.h2-container {
+    display: none;
+    color: chocolate;
 }
 
 
 
 
-input:focus{
-background-color: chartreuse;
+input:focus {
+    background-color: chartreuse;
 }
 
+input[type=number]:focus {
 
-
-
-
-input[type=number]:focus{
-
-background-color: rgb(14, 70, 120);
+    background-color: rgb(14, 70, 120);
 }
 
-a:link{
+a:link {
     color: rgba(72, 4, 217, 0.985);
 }
 
 
-a:visited{
-color: rgb(246, 226, 11);
+a:visited {
+    color: rgba(15, 2, 2, 0.749);
 }
 
+a:active {
+    color: yellow7;
 
-input:checked{
-width: 30%;
-height: 10%;
-border: 1px solid red;
 }
 
-input[type=number]:disabled{
+input:checked {
+    width: 30%;
+    height: 10%;
+    border: 1px solid red;
+}
+
+input[type=number]:disabled {
 
     background-color: green;
 }
+
+/* Css Attribute Selectors */
+a[target]{
+
+    background-color: yellow;
+}
+a[target=_blank]{
+    background-color: bisque;
+}
+
+
+[title~=flw] {
+border: 5px solid yellow;
+}
+
+[class$="test"]{
+background-color: rgb(31, 93, 238);
+
+}
+
+[class^="start"]{
+
+    background-color: yellow;
+}
+
+
+.first-letter{
+    font-size: 30px;
+    color: blueviolet;
+}
+
+
+h5::first-letter{
+
+    font-size: 30px;
+    color: blueviolet;
+}
+
+h6::first-line{
+    font-size: 25px;
+    color: coral;
+}
+
+
+
+
 
