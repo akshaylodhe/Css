@@ -1,0 +1,49 @@
+.parent-container {
+    text-align: center;
+    margin: auto;
+    border: 1px solid red;
+}
+
+.form-container {
+
+    background-color: rgb(23, 217, 251);
+}
+
+.h1-container {
+    color: rgb(153, 36, 10);
+}
+
+.p-container {
+
+
+    color: rgba(27, 11, 196, 0.751);
+}
+
+ /* .parent-container .form-container .h1-container p.p-container{
+
+    font-size: 50px;
+}  */
+
+.h1-container p.p-container {
+    font-size: 50px;
+}
+
+
+#example1{
+border: 1px solid;
+padding: 10px;
+box-shadow: 5px 10px 8px rgb(138, 43, 226);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+66
