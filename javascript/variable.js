@@ -8,7 +8,7 @@ b = 30;// Defination
 //let a = 'Akshay'//redeclaration with let keyword is not possible
 
 var t;//Declaretion
-t=50; //Defination
+t = 50; //Defination
 
 
 let favFruit = 'mango';
@@ -16,15 +16,15 @@ console.log(favFruit);
 
 var favcar = 'mincup';//redeclration of variable with var keyboard is possible
 console.log(favcar);
- 
-var favcar ='swift';
+
+var favcar = 'swift';
 console.log(favcar)
 
 mobno = 7038907370; // Define :hoisting of variable :first define variables, value then declare  variable 
-var mobno ;// declare  hoisting is not possible with lett keyword 
+var mobno;// declare  hoisting is not possible with lett keyword 
 console.log(mobno)
 
-const myname ='Akshay Patil'; //value resign with const keyworrds is not possible
+const myname = 'Akshay Patil'; //value resign with const keyworrds is not possible
 //myname=5000;
 console.log(myname);
 
@@ -35,9 +35,9 @@ console.log(myname);
 
 // function syntax: function (reserved keyword) functionName(){}********
 
-function myFirstFunction(){
-    //code block
-    console.log('i am inside function');
+function myFirstFunction() {
+  //code block
+  console.log('i am inside function');
 }
 
 
@@ -45,13 +45,31 @@ myFirstFunction();
 console.log(myFirstFunction());
 
 
-function scope(){
-    let myFavMovies = '3iditos'
-  console.log( myFavMovies);
+function scope() {
+  let myFavMovies = '3iditos'
+  console.log(myFavMovies);
 }
 
+// console.log(myFavMovies);
+// program to print the text
+// variable a cannot the used here 
+
+function diffLetVar() {
+  let a = 'hello';
+
+
+  if (true) {
+    var b = 'world';
+    console.log('inside block b -->b',);
+
+  }
+  console.log('outer block b value -->', b);
+}
+
+diffLetVar();
 
 
 
-
-
+//var keyword variable's scope is :funaction level scope 
+//let keyword variable's scope is :function level scope 
+// console.log ('outside fun',b) // uncought re error
