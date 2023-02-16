@@ -90,4 +90,6 @@ var car = 'null i am Akshay';//true, -9,0,90,-0
 console.log(typeof(car));
 console.log(typeof(20*40+'rinki'+20));
 
+
+
  
