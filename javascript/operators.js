@@ -89,8 +89,4 @@ if (city === 'mumbai') {
     console.log('i live in pune');
 }
  
-city === 'mumbai' ? console.log('I live in mumbai') : console.log('i live pune');
-
-
-
-
+city === 'mumbai' ? console.log('I live in mumbai') : console.log('i live pune')     
