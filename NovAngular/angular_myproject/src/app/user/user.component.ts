@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { __values } from 'tslib';
 
 @Component({
   selector: 'app-user',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class UserComponent {
 
-}
+  inputBoxValue: any;
+  myFunction(value: any) {
+    this.inputBoxValue = value;
+  }
+} 
