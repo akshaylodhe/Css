@@ -10,16 +10,21 @@ export class AppComponent { // main component class :where we write code logic
   myName = 'Akshay';
   mySurname: string = 'lodhe ';
   mySurname2?: string; //syntex change
+  // mysurname2 : string:
+  testProperty : any = 5000;
   constructor() { //constructor :just normal function but it will trigger implacity by compiler
     console.log('inside constructor..');
   }
 
   test() {
-    this.mySurname2= "lodhe";
+    var xyz = 100;
+    this.mySurname2 = "lodhe";
   }
 
   test2() {
-
+    let a;
+    a = 20
+    this.mySurname2 = this.mySurname;
     this.test();
   }
 }

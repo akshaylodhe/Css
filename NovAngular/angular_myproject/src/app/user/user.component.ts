@@ -7,9 +7,14 @@ import { __values } from 'tslib';
   styleUrls: ['./user.component.css']
 })
 export class UserComponent {
+  inputBoxValue:any;
 
-  inputBoxValue: any;
-  myFunction(value: any) {
+  myFunction(value:any){
     this.inputBoxValue = value;
+  }
+
+  myEvent(){
+    console.log('....');
+    
   }
 } 
