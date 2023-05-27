@@ -1,4 +1,4 @@
-<app-user></app-user>
+
 <div class="main-container">
 <p>
     This is my first web appliction
@@ -7,5 +7,11 @@
 {{ myName}}
 
 </div>
-{{  mySurname2}}
 
+{{mySurname2}}
+ <button (click )="test()">click</button> <br> 
+ <!-- <app-user></app-user><br>
+<app-databinding></app-databinding>  -->
+
+<button routerLink="/user"> user </button>
+<router-outlet></router-outlet> 

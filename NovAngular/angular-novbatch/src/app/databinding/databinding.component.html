@@ -1,0 +1,44 @@
+<p>databinding works!</p>
+<!-- one way detabinding : 1 interpolation 2 property binding 3 event binding  -->
+<!-- two way databinding : two way databinding  -->
+<!-- string interpolation   .ts to html data trasmission-->
+
+<!-- test cases regarding interpolartion: -->
+{{data}} <!-- we can pass property -->
+{{getvalues()}} <!-- we can pass function   -->
+{{20+30}} <!--interpolartion will allow us to do arutmatic oprations -->
+{{no == 70}} <!-- u can gives euality opretors in interpolartion  -->
+<!-- {{no =40}} u can not assign values to the property i interpolartion -->
+<!-- {{type of(no)}} we can not used type of opretors with interpolration -->
+<!-- {{no++}} incriment and decriment is not possible with interolartion  -->
+<br>
+
+
+<!-- property binding  can hndle disabled attribute,but
+    interpolltion can not handle disabled atrribute -->
+<input type="text" value="Akshay">name <br><br> <!-- noramol way to display value initially -->
+<input type="text" value="myname"><br> <!-- my name -->
+<input type="text" [value]="myname"> <br>
+<input type="text" value={{myname}}> <br>
+<input type="text" [disabled]="disableBox" [value]="myname">
+<input type="text" disabled={{disableBox}} value={{myname}}>
+
+
+<!-- two way deta binding 
+for way data binding we use ng model directive so we to impoert formMoudle -->
+
+<br><br>
+<input type="text"[(ngModel)] = "surName">
+{{surName}}
+{{changingInputValue()}}
+
+
+
+
+
+
+
+
+
+
+

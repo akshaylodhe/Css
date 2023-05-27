@@ -27,12 +27,4 @@ this.mySurname2 ='Lodhe'
     this.test();
   }
 
-
 }
-
-
-
-
-
-
-
