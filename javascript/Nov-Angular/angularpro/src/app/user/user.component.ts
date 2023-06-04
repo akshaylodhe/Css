@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./user.component.scss']
 })
 export class UserComponent {
-
+  inputBoxvalue: any;
+  myFunction(value: any) {
+    this.inputBoxvalue = value;
+  }
+  
+myEvent(event:any){ 
+console.log('...////');
+}
 }
