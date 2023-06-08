@@ -24,4 +24,7 @@ test2(){
   this.test();
 }
 
+getName(){
+alert ("ak patil")
+}
 }

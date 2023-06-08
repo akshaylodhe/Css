@@ -11,7 +11,25 @@ export class UserComponent {
     this.inputBoxvalue = value;
   }
   
-myEvent(event:any){ 
-console.log('...////');
+myEvent(){
+console.log("...////");
 }
+arrayitem =[1,5,9,56,82] 
+obj = {
+name : 'rinki',
+age: 25
+}
+checkboxEvent(event:any){
+console.log('event',event.target.value);
+
+}
+checkboxEvent1(event:any){
+  console.log('event',event.target.value);
+  
+  }
+  blurEvent(){
+
+    console.log('blur');
+    
+  }
 }
