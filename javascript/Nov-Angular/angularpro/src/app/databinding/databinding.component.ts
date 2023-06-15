@@ -6,8 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./databinding.component.scss']
 })
 export class DatabindingComponent {
-data =[10,80,8,20,5,834,];
+  data = [10, 80, 8, 20, 5, 834,];
 
-myName = "Akshay";
+  myName = "Akshay";
 
+  getValue() {
+    return 'raj';
+  }
+  SurName = 'Lodhe patil'
+  no = 76
 }

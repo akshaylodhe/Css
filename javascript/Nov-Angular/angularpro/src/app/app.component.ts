@@ -23,8 +23,4 @@ test2(){
   this.mysurname2 = this.mysurname;
   this.test();
 }
-
-getName(){
-alert ("ak patil")
-}
 }

@@ -4,21 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
-import { RegisterComponent } from './register/register.component';
 import { DatabindingComponent } from './databinding/databinding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [ // comp + dir + pipes
     AppComponent,
     UserComponent,
-    RegisterComponent,
     DatabindingComponent
   ],
-  imports: [
+  imports: [ // Modules
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [], 
   bootstrap: [AppComponent]
 })
 export class AppModule { }
