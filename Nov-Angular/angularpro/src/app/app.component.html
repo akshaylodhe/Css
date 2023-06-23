@@ -1,0 +1,25 @@
+<!-- 
+<div class="container">
+  <p>This is my first web application</p>
+
+  {{myName}}
+</div>
+
+{{ mysurname2}}
+<br>
+<button (click)="test()">click</button>  -->
+<!-- 
+ <app-user></app-user>
+  <app-databinding></app-databinding>   -->
+
+
+<button routerLink="/user"> User</button> &nbsp;
+<button routerLink="databinding">DataBinding</button> &nbsp;
+<a href="/user"> User with herf tag</a> <!--it will refresh our appliction so all data will be lost  --> &nbsp; 
+<a routerLink="/user">UserComp with Anchor Tag</a> &nbsp;
+<button routerLink="use">wild card</button>&nbsp;  <br>
+<button routerLink="/homeModule-home">home module -home</button>&nbsp; <br>
+<button routerLink="/landing">home module-Landing</button>&nbsp; 
+
+
+<router-outlet></router-outlet>
